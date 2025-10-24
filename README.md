@@ -76,7 +76,11 @@ This repository contains the firmware for both microcontrollers, separated into 
 
 /
 ├── stm32_firmware/   (Contains the complete STM32CubeIDE project)
+
+
 ├── esp32_firmware/   (Contains the Arduino .ino sketch for the ESP32)
+
+
 └── README.md         (You are here)
 
 ## How to Test
