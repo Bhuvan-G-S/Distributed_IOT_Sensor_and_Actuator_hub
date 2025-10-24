@@ -37,7 +37,8 @@ The data flows in one direction, from the sensors to the cloud, with each device
         Formats all this data into a JSON string (e.g., {"soil": 1850, "ir_detected": 1, "switches": 5}).
 
         Sends this string over SPI to the ESP32.
-        
+![st32 pic](https://github.com/user-attachments/assets/c3ea469a-cd2e-4726-957e-ad11015276c3)
+
 
 
     ESP32 (Slave): The loop() function continuously:
@@ -47,8 +48,9 @@ The data flows in one direction, from the sensors to the cloud, with each device
         Upon receiving the data, it connects to the local Wi-Fi.
 
         It then makes an HTTP POST request, sending the JSON string as the payload to a public webhook URL.
-![webhookpic](https://github.com/user-attachments/assets/87bff358-494d-482f-b258-a0a8ae65eb52)
-       
+
+![webhookpic](https://github.com/user-attachments/assets/cf16f310-fc35-4cfd-8be9-a49b99211e87)
+
 
 
 ## Hardware Required
