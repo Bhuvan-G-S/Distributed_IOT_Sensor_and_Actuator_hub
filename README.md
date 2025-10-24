@@ -47,7 +47,7 @@ The data flows in one direction, from the sensors to the cloud, with each device
         Upon receiving the data, it connects to the local Wi-Fi.
 
         It then makes an HTTP POST request, sending the JSON string as the payload to a public webhook URL.
-
+![webhookpic](https://github.com/user-attachments/assets/87bff358-494d-482f-b258-a0a8ae65eb52)
        
 
 
