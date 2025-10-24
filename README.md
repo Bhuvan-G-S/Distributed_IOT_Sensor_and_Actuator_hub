@@ -48,7 +48,7 @@ The data flows in one direction, from the sensors to the cloud, with each device
 
         It then makes an HTTP POST request, sending the JSON string as the payload to a public webhook URL.
 
-        <img width="602" height="203" alt="webhookpic" src="https://github.com/user-attachments/assets/87bff358-494d-482f-b258-a0a8ae65eb52" />
+        ![webhookpic](https://github.com/user-attachments/assets/87bff358-494d-482f-b258-a0a8ae65eb52)
 
 
 ## Hardware Required
