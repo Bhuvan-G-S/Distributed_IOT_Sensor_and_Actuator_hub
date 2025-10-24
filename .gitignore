@@ -1,0 +1,17 @@
+# STM32CubeIDE build files
+stm32_firmware/Debug/
+stm32_firmware/Release/
+stm32_firmware/build/
+
+# ESP32 / Arduino build files
+esp32_firmware/*.bin
+esp32_firmware/build/
+esp32_firmware/.build/
+
+# General junk files
+*.log
+*.cproject
+*.project
+*.settings
+*.user
+*.suo
